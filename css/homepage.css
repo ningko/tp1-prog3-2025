@@ -12,6 +12,43 @@
     height: 100px;
 }
 
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav h3 {
+    text-align: center;
+    padding: 5%;
+}
+
+.nav-gif {
+    padding-top: 100px;
+    width: 400px;
+    filter: grayscale(70%);
+    transition: width 0.3s ease-in-out;
+}
+
+.nav-gif:hover {
+    width: 22vw;
+}
+
+.nav-gif:hover:nth-of-type(1) {
+  filter: grayscale(0%);
+}
+
+a, a:focus, a:active {
+    color: #6096AA;
+    text-decoration: none !important;
+}
+
+
+a:hover {
+    color: #29738F;
+    text-decoration: none; 
+    cursor: pointer;  
+}
+
 body {
     background-color: rgb(220, 220, 220);
 }
