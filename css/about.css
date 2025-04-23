@@ -1,0 +1,33 @@
+* {
+    font-family: 'Segoe UI';
+    margin: 30px;
+    padding: 0;
+    font-size: 20px;
+}
+
+h1 {
+    padding-left: 25px;
+    font-size: 40px;
+}
+
+body {
+    background-color: rgb(220, 220, 220);
+}
+
+.about-column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 40%;
+    text-align: justify;
+}
+
+.about-column p {
+    margin: 5px;
+    padding-left: 20px;
+}
+
+.about-column ul, li {
+    line-height: 10%;
+    padding: 2px;
+}
