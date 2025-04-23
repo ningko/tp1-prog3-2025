@@ -8,6 +8,7 @@
 h1 {
     padding-left: 25px;
     font-size: 40px;
+    color: #29738F;
 }
 
 body {
@@ -47,4 +48,23 @@ body {
 
 #columna-2 p {
     line-height: 200%;
+}
+
+.italics {
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+    margin: 10px;
+}
+
+.links, .links:active {
+    font-weight: bold;
+    color: #6096AA;
+}
+
+
+.links:hover {
+    color: #29738F;
 }
