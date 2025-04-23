@@ -8,9 +8,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(54, 54, 54);
-    background-color: rgb(180, 180, 180);
     height: 100px;
+    color: #29738F;
+    background-color: rgb(180, 180, 180);
 }
 
 .nav {
@@ -19,15 +19,15 @@
 }
 
 .nav h3 {
-    text-align: center;
     padding: 5%;
+    text-align: center;
 }
 
 .nav-gif {
     padding-top: 100px;
-    width: 300px;
     filter: grayscale(70%);
     transition: width 0.3s ease-in-out;
+    width: 300px;
 }
 
 .nav-gif:hover {
@@ -39,15 +39,15 @@
 }
 
 a, a:focus, a:active {
-    color: #6096AA;
     text-decoration: none !important;
+    color: #6096AA;
 }
 
 
 a:hover {
-    color: #29738F;
     text-decoration: none; 
     cursor: pointer;  
+    color: #29738F;
 }
 
 body {

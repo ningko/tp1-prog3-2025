@@ -56,8 +56,8 @@ body {
 }
 
 a {
-    text-decoration: none;
     margin: 10px;
+    text-decoration: none;
 }
 
 .links, .links:active {

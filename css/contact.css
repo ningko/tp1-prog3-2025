@@ -13,8 +13,8 @@ body {
     justify-content: center;
     align-items: center;
     padding-top: 10%;
-    font-size: 25px;
     color: #145c79;
+    font-size: 25px;
 }
 
 .contact-nav {
@@ -24,11 +24,11 @@ body {
 }
 
 .contact-icons {
+    filter: grayscale(40%);
+    transition: width 0.3s ease-in-out;
     padding-top: 100px;
     width: 150px;
     text-align: center;
-    filter: grayscale(40%);
-    transition: width 0.3s ease-in-out;
 }
 
 .contact-icons:hover {
@@ -37,18 +37,18 @@ body {
 
 .contact-icons:hover:nth-of-type(1) {
     filter: grayscale(0%);
-  }
+}
 
 a, a:focus, a:active {
-    color: #6096AA;
     text-align: center;
     text-decoration: none !important;
+    color: #6096AA;
 }
 
 
 a:hover {
-    color: #29738F;
     text-decoration: none; 
     text-align: center;
     cursor: pointer;  
+    color: #29738F;
 }
