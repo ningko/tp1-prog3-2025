@@ -24,7 +24,7 @@
 
 .nav-gif {
     padding-top: 100px;
-    width: 400px;
+    width: 300px;
     filter: grayscale(70%);
     transition: width 0.3s ease-in-out;
 }
